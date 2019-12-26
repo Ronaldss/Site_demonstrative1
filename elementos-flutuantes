@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elementos Flutuantes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="elementos-flutuantes.css">
+</head>
+<body>
+	<a href="index.html">Voltar</a>
+	<div class="texto"> 
+		<p>Conteudo 1 - alterado</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 2</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 3</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 4</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 5</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 6</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 7</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 8</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 9</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 10</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 11</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 12</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 13</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 14</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 15</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 16</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 17</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 18</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 19</p>
+	</div>
+	<div class="texto"> 
+		<p>Conteudo 20</p>
+	</div>
+	<div class="texto flutuante" style="background-color:#819263"> 
+		<p>Ronald SSilva</p>
+	</div>
+</body>
+</html>

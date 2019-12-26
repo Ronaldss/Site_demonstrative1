@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Andarilho</title>
+    <style>
+        body{
+            background: #19181F;
+            color: white;
+        }
+    </style>
+</head>
+<body onload="criarPlayer()">
+    <!-- coluna da casa -->
+    <p id="quarto"></p>
+    <script>
+        
+        
+
+        // Criando o player
+        var contador = 0
+        function criarPlayer(){
+            // Lugar de nascimento do player
+            var casa = document.querySelector("p#quarto")
+
+            var tom = document.createElement('img')
+            tom.setAttribute('src','player.png')
+            tom.setAttribute('id',`${contador}`)
+            tom.style.borderRadius = "100%"
+            // Chamando o player
+            casa.appendChild(tom)
+            contador++
+            setTimeout("criarPlayer()",1000)
+            console.log(`Replica: ${contador}`)
+        }
+        
+        function click(){
+            document.getElementById(`${contador}`).style.display = 'none'
+            console.log('Deletando!')
+        }
+        
+        //Replicando player 1000 vezes
+       /* var i = 1000
+        while (i>0){
+            criarPlayer()
+            i--
+        }
+        */
+    </script>
+    <input type="button" value="deletando" onclick="click()">
+</body>
+</html>

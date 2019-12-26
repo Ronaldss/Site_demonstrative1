@@ -1,0 +1,75 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background: #D2D2C1 url('imagens/bckg.png') repeat;
+	font: 16px arial, sans-serif;
+}
+#principal{
+	*border: 2px solid red;
+	width:900px;
+	margin:auto;
+}
+#principal img{
+	margin:0px;
+	padding:0px;
+	border: 8px inset #91926A;
+}
+#menu{
+	background: #C5C5B2;
+	padding: 1px;
+	height: 35px;
+	*border:1px solid blue;
+	/*
+	*background-color:green;
+	height: 28.5px;
+	*margin:auto;
+	*/
+}
+#menu ul,
+#menu li{
+	list-style:none;
+	background: #C5C5B2;
+	*border: 1px solid pink;
+	margin-top: 0px;
+	line-height:35px;
+}
+#menu li{
+	float:right;
+	
+	border-radius: 5px;
+	margin-right:95px;
+	*border: 1px solid green;
+}
+#menu li:hover{
+	background-color: #91926A;
+	border-radius:5px;
+	color:#FFFFFF;
+}
+a{
+	text-decoration: none;
+	color:#4B566A;
+	font-weight: bold;
+	padding: 0px;
+}
+#conteudo{
+	background-color:#e8e8d9;
+	padding: 10px;
+}
+#conteudo p{
+	text-align: justify;
+}
+#conteudo img{
+	border: 8px groove #91926A;
+}
+#rodape{
+	text-align: center;
+	background-color:;
+}
+h1{
+	font-size:1.2em;
+	color: #828271;
+}
+.img-campanha{
+	border: 10px solid #C3C3AE;
+	width: 750px;
+}

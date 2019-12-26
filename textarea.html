@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste de textarea</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			margin: 20px;
+			background-color:#737343;
+		}
+		#area{
+			
+			margin:0px;
+			height:60px;
+			width:100%;
+		}
+		#fieldset{
+			width:300;
+			height:200;
+		}
+		#esquerda{
+			float:left;
+		}
+		.tamanho{
+			width:300px;
+			height:400px;
+			background-color:#8273FF;
+			float:left;
+		}
+		input:checked {
+ 			 height: 50px;
+ 			 width: 50px;
+}
+	</style>
+</head>
+<body>
+	<p>Formulário ao cliente</p>
+	<div id="area">
+		<!--<textarea id="textoMensagem" class="campo-menor-inpt form-control" style="margin: 5px -222px 5px 0px; height: 227px; width: 741px;"></textarea>-->
+		<textarea rows="2" cols="50"></textarea> <!-- ou use id="area" -->
+	</div>
+	<hr>
+	<div>
+		<form>
+			<fieldset class="tamanho">
+				<legend>Digite sua senha:</legend> 
+				Senha: <input type="password" name="senha">
+				<input type="submit" value="OK">
+			</fieldset>
+		</form>
+	</div>
+	<div>
+		<fieldset class="tamanho">
+			<legend>Digite seu nome:</legend>
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome">
+			<input type="submit" value="OK">
+		</fieldset>
+	</div>
+	<hr>
+	Testando o input checked <input checked="" />
+	Testndo checkbox: <input type="checkbox" name="" checked><br><br>
+	<hr>
+	<dir style="float:right; background-color: red;">
+		<a href="index.html">VOLTAR</a>
+	</dir>
+</body>
+</html>

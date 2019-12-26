@@ -1,0 +1,52 @@
+body{
+	margin: 1;
+	background: #000000;
+}
+.topo{
+	width: 100%;
+	height: 100px;
+	background: #914109;
+	color:#FFFFFF;
+}
+.menu1{
+	width:200px;
+	height:300px;
+	background-color:#00009F;
+	color:#FFFFFF;
+	float: left;
+}
+.menu2{
+	width: 200px;
+	height: 300px;
+	color:#FFFFFF;
+	background-color: #123456;
+	float: right;
+}
+.menu3{
+	color: white;
+	background-color:#F88815;
+}
+.menu4{
+	color: white;
+	background-color:#107880;
+}
+.menu5{
+	color: white;
+	background-color:#847415;
+}
+.menu6{
+	color: white;
+	background-color:#195815;
+}
+img{
+	width: 100px;
+}
+#conteudoBorda{
+	border-color: red green yellow blue;
+	border-width: 5px 10px 5px 10px;
+	border-style: groove groove groove groove;
+}
+#ass{
+	color: white;
+	text-align: center;
+}

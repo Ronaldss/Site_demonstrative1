@@ -1,0 +1,26 @@
+body{
+	margin:0;
+	background-color:grey;
+	height: 100%;
+}
+.conteudoDiv{
+	width:800px;
+	height:900px; /* 100% do conteudo da Div */
+	background-color:#EEEEEE;
+	color:#0F0F0F;
+
+	font-size:20px;
+	font-family: Verdana, Ariel;
+	font-weight:bolder; 
+
+	text-align: center;
+	text-decoration:underline;
+	text-transform:uppercase;  /* Caixa alta e baixa: uppercase - lowercase */
+
+	margin:auto;
+	margin-left: ;
+	margin-right: ;
+	margin-top:20px;
+	margin-bottom:10px;   /*	AQUI!!!  */
+	padding-top:20px;     /* preenchimento interno*/
+}

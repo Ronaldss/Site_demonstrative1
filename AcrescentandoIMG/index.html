@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!-- 
+
+===================================================================================
+============================   Por RonaldsS  ======================================
+===================================================================================
+### TRÊS OBJETIVOS
+1 - Criando uma TAG 'p' via js;
+2 - acrescentando uma imagen dentro da TAG 'p' via JS;
+3 - executando as ações acima via uma função embutida dentro de um 'input:button'.
+===================================================================================
+===================================================================================
+
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background: #19181F;
+        }
+        #fazer{
+            margin: 50px;
+        }
+        #op{
+            width: 700px;
+            background: red;
+            border-radius: 100px;
+            text-align: center;
+            margin: auto;
+        }
+        .bt{
+            border-radius: 60px;
+            box-decoration-break: slice;
+        }
+    </style>
+    <script>
+        pulso = 0
+        function iniciar(){
+            var saida = document.querySelector("p#op")
+            var escrita = document.createElement("img")
+            escrita.setAttribute('src','1.png')
+            escrita.setAttribute('id','fazer')
+            saida.appendChild(escrita)
+            pulso++
+            setTimeout("iniciar()",1000)
+            console.log(`Pulso: ${pulso}`)
+        }
+        function delet(){
+
+            /*
+                Note que, para remover o nó (e não somente o conteúdo do mesmo), 
+                você precisa antes recuperar o pai deste nó:
+            */
+            // Removendo um nó a partir do pai
+
+            var node = document.getElementById("fazer");
+            console.log("Parente Node: "+node.parentNode.nodeName)//.nodeName)
+            if (node.parentNode) {
+            node.parentNode.removeChild(node)
+            }
+        }
+        
+    </script>
+</head>
+<body onload="iniciar()">
+    <input type="button" onclick="delet()" value="Ação" class="bt">
+    <p id="op">
+        
+    </p>
+</body>     
+</html>
